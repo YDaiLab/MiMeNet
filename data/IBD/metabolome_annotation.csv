@@ -1,0 +1,467 @@
+Metabolomic Feature,Retention Time,m/z,Compound Name,Adduct
+HILIC-neg_Cluster_0622,3.809685,229.09797400000002,"1,2,3,4-tetrahydro-1-methyl-beta-carboline-3-carboxylic acid",[M-H]-
+C18-neg_Cluster_0183,1.2827389999999999,259.072196,"1,2,3,4-tetrahydro-b-carboline-1,3-dicarboxylic acid",[M-H]-
+C18-neg_Cluster_0393,10.162391,313.238314,12.13-diHOME,[M-H]-
+HILIC-neg_Cluster_0480,3.83278,209.06788500000002,1-3-7-trimethylurate,[M-H]-
+C18-neg_Cluster_0530,16.986972,337.31086899999997,13-docosenoate,[M-H]-
+HILIC-pos_Cluster_0245,5.196976,166.071783,1-methylguanine,[M+H]+
+HILIC-pos_Cluster_0110,8.138233999999999,137.070572,1-methylnicotinamide,[M+H]+
+HILIC-neg_Cluster_0032,3.037586,102.056011,2-aminobutyric acid,[M-H]-
+HILIC-pos_Cluster_0728,5.144115,252.108028,2-deoxyadenosine,[M+H]+
+HILIC-neg_Cluster_0113,3.663407,131.071198,2-hydroxy-3-methylpentanoic acid /  leucinic acid,[M-H]-
+HILIC-neg_Cluster_0169,7.205253999999999,147.029673,2-hydroxyglutarate,[M-H]-
+C18-neg_Cluster_0219,13.929959,271.228079,2-hydroxyhexadecanoate,[M-H]-
+C18-neg_Cluster_0144,12.518107,243.196061,2-hydroxymyristic acid,[M-H]-
+HILIC-pos_Cluster_0114,6.2207230000000004,138.090932,2-hydroxyphenethylamine,[M+H]+
+HILIC-neg_Cluster_0161,7.166747,145.050329,2-methylglutaric acid,[M-H]-
+HILIC-neg_Cluster_0220,7.313638,159.06598200000002,3-methyladipate-pimelate,[M-H]-
+HILIC-pos_Cluster_0272,9.833021,170.09178300000002,3-methylhistidine,[M+H]+
+HILIC-pos_Cluster_0254,3.2796019999999997,167.055805,3-methylxanthine,[M+H]+
+HILIC-pos_Cluster_0150,7.207806,146.091958,4-guanidinobutanoic acid,[M+H]+
+HILIC-pos_Cluster_0177,1.6957669999999998,151.074856,4-hydroxy-3-methylacetophenone,[M+H]+
+HILIC-neg_Cluster_0079,2.527884,121.029504,4-hydroxybenzaldehyde,[M-H]-
+C18-neg_Cluster_0004,2.554039,119.048864,4-hydroxystyrene,[M-H]-
+HILIC-neg_Cluster_0084,1.366308,123.045022,4-methylcatechol,[M-H]-
+HILIC-neg_Cluster_0133,4.081432,138.019547,4-nitrophenol,[M-H]-
+HILIC-neg_Cluster_0335,3.8405449999999997,182.04589199999998,4-pyridoxate,[M-H]-
+HILIC-pos_Cluster_0422,5.216495,199.081977,5-acetylamino-6-amino-3-methyluracil,[M+H]+
+HILIC-pos_Cluster_1370,1.6997790000000002,371.365793,5alpha-cholestanol,[M-H2O+H]+
+C8-pos_Cluster_0100,4.059965,269.24751299999997,7-hexadecenoic acid methyl ester,[M+H]+
+C18-neg_Cluster_0901,8.598227,405.26444100000003,7-ketodeoxycholate,[M-H]-
+HILIC-pos_Cluster_0246,5.691902,166.071809,7-methylguanine,[M+H]+
+HILIC-pos_Cluster_0914,5.249251999999999,284.098026,8-hydroxy-deoxyguanosine,[M+H]+
+C18-neg_Cluster_0394,10.358848,313.238464,9.10-diHOME,[M-H]-
+C18-neg_Cluster_0025,1.024814,161.985411,acesulfame,[M-H]-
+HILIC-neg_Cluster_0232,3.482412,161.986314,acesulfame,[M-H]-
+HILIC-neg_Cluster_0103,3.9199599999999997,130.05083,acetylalanine,[M-H]-
+HILIC-pos_Cluster_0152,7.671378999999999,146.11699199999998,acetylcholine,[M+H]+
+C18-neg_Cluster_0090,1.126767,222.076542,acetytyrosine,[M+H]+
+HILIC-neg_Cluster_0120,2.271317,134.04717,adenine,[M-H]-
+HILIC-pos_Cluster_0447,9.686666,203.149698,ADMA,[M+H]+
+HILIC-pos_Cluster_0446,9.579272,203.149549,ADMA/SDMA*,[M+H]+
+C18-neg_Cluster_0506,15.061144,331.264136,adrenic acid,[M-H]-
+HILIC-pos_Cluster_0008,7.798448,90.055267,alanine,[M+H]+
+HILIC-neg_Cluster_0015,3.3004300000000004,88.040286,alanine,[M-H]-
+HILIC-neg_Cluster_0034,3.866533,103.039899,alpha-hydroxybutyrate,[M-H]-
+HILIC-neg_Cluster_0159,7.756236,145.01408700000002,alpha-ketoglutarate,[M-H]-
+HILIC-neg_Cluster_0062,3.52175,115.03992099999999,alpha-ketoisovalerate,[M-H]-
+C18-neg_Cluster_0244,13.755078,277.217171,alpha-linolenic acid,[M-H]-
+C18-neg_Cluster_0927,8.117757000000001,407.279768,alpha-muricholate,[M-H]-
+HILIC-pos_Cluster_0667,10.469161999999999,241.128533,anserine,[M+H]+
+C18-neg_Cluster_0354,14.312957999999998,303.23290099999997,arachidonic acid,[M-H]-
+C18-neg_Cluster_1620,14.313547,507.19415499999997,arachidonic acid,[Unknown]-
+C18-neg_Cluster_1941,14.312981,575.182128,arachidonic acid,[Unknown]-
+C18-neg_Cluster_0709,14.313254999999998,371.220378,arachidonic acid,[Unknown]-
+C18-neg_Cluster_1131,14.313544,439.20776100000006,arachidonic acid,[Unknown]-
+HILIC-pos_Cluster_0295,9.13588,175.118517,arginine,[M+H]+
+HILIC-neg_Cluster_0290,4.262824,173.104141,arginine,[M-H]-
+HILIC-neg_Cluster_0299,9.502578999999999,175.024517,ascorbate,[M-H]-
+HILIC-pos_Cluster_0099,7.9256,133.06038999999998,asparagine,[M+H]+
+HILIC-neg_Cluster_0112,3.9620599999999997,131.046065,asparagine,[M-H]-
+HILIC-neg_Cluster_0117,5.346335,132.030197,aspartate,[M-H]-
+HILIC-pos_Cluster_0817,6.740239999999999,267.16906800000004,atenolol,[M+H]+
+HILIC-neg_Cluster_0365,7.129824,187.097181,azelaic acid,[M-H]-
+C18-neg_Cluster_0045,4.477811,187.09651200000002,azelate,[M-H]-
+HILIC-pos_Cluster_0009,7.961105,90.055235,beta-alanine,[M+H]+
+HILIC-pos_Cluster_0048,8.945122999999999,118.08599199999999,betaine,[M+H]+
+C8-pos_Cluster_0515,7.722481,397.383243,beta-sitosterol,[M-H2O+H]+
+HILIC-pos_Cluster_2052,1.642753,585.2676240000001,bilirubin,[M+H]+
+HILIC-neg_Cluster_0013,3.914183,87.045064,butyrate / isobutytare*,[M-H]-
+HILIC-pos_Cluster_0151,8.675049000000001,146.116967,butyrobetaine,[M+H]+
+HILIC-pos_Cluster_1374,6.681222,372.309038,C14 carnitine,[M+H]+
+C8-pos_Cluster_1303,11.552452,619.542184,C14:0 CE,[M+Na]+
+C8-pos_Cluster_1521,7.525761,675.54142,C14:0 SM,[M+H]+
+HILIC-pos_Cluster_1486,6.561967,400.34031,C16 carnitine,[M+H]+
+C8-pos_Cluster_1395,11.973232000000001,647.573818,C16:0 CE,[M+Na]+
+C8-pos_Cluster_1375,11.968649000000001,642.618861,C16:0 CE,[M+NH4]+
+C8-pos_Cluster_1004,8.197254,538.519883,C16:0 ceramide (d18:1),[M+H]+
+C8-pos_Cluster_0878,4.767281,496.339905,C16:0 LPC,[M+H]+
+HILIC-pos_Cluster_1684,6.263367,454.29096699999997,C16:0 LPE,[M+H]+
+C8-pos_Cluster_1657,8.053828999999999,703.5748150000001,C16:0 SM,[M+H]+
+HILIC-pos_Cluster_2293,7.126086999999999,703.5714690000001,C16:0 SM,[M+H]+
+C8-pos_Cluster_1369,11.625544,640.602783,C16:1 CE,[M+NH4]+
+C8-pos_Cluster_1386,11.627639,645.557757,C16:1 CE*,[M+Na]+
+HILIC-pos_Cluster_1773,7.530619000000001,480.342826,C16:1 LPC plasmalogen*,[M+H]+
+C8-pos_Cluster_0354,4.9595970000000005,351.250395,C16:1 MAG,[M+Na]+
+C8-pos_Cluster_0313,4.840698000000001,339.250073,C16:1 MAG*,
+C8-pos_Cluster_1647,7.695674,701.5567570000001,C16:1 SM,[M+Na]+
+HILIC-pos_Cluster_1593,6.455731,428.37169000000006,C18 carnitine,[M+H]+
+C8-pos_Cluster_1525,12.387281,675.604039,C18:0 CE,[M+Na]+
+C8-pos_Cluster_1502,12.372106,670.650143,C18:0 CE,[M+NH4]+
+C8-pos_Cluster_0949,5.303413,524.3711519999999,C18:0 LPC,[M+H]+
+HILIC-pos_Cluster_1899,7.570428999999999,524.369027,C18:0 LPC,[M+H]+
+C8-pos_Cluster_0467,5.72305,381.296567,C18:0 MAG,[M+Na]+
+C8-pos_Cluster_0446,5.71969,376.340419,C18:0 MAG,[M+NH4]+
+C8-pos_Cluster_1758,8.557205,731.606607,C18:0 SM,[M+H]+
+C8-pos_Cluster_0338,6.184319,345.336485,C18:0e MAG,[M+H]+
+C8-pos_Cluster_0410,6.190883,367.31844900000004,C18:0e MAG,[M+Na]+
+HILIC-pos_Cluster_1586,6.477161,426.35587599999997,C18:1 carnitine,[M+H]+
+C8-pos_Cluster_1490,12.043032,668.634054,C18:1 CE,[M+NH4]+
+C8-pos_Cluster_1514,12.049957000000001,673.5894400000001,C18:1 CE  ,[M+Na]+
+C8-pos_Cluster_0945,4.938243,522.355717,C18:1 LPC,[M+H]+
+HILIC-pos_Cluster_1855,7.738521,508.37403499999994,C18:1 LPC plasmalogen*,[M+H]+
+HILIC-pos_Cluster_1893,7.615695,522.3534,C18:1 LPC*,[M+H]+
+HILIC-pos_Cluster_1580,6.524092,424.340387,C18:2 carnitine,[M+H]+
+C8-pos_Cluster_1478,11.716127,666.618408,C18:2 CE,[M+NH4]+
+C8-pos_Cluster_1504,11.726673,671.573482,C18:2 CE*,[M+Na]+
+C8-pos_Cluster_0939,4.600409,520.3404059999999,C18:2 LPC,[M+H]+
+C8-pos_Cluster_1468,11.45202,664.6020570000001,C18:3 CE,[M+NH4]+
+C8-pos_Cluster_1494,11.453383,669.558808,C18:3 CE*,[M+Na]+
+C8-pos_Cluster_0936,4.766593,518.321945,C18:3 LPC,[M+H]+
+HILIC-pos_Cluster_0453,8.585624000000001,204.12232,C2 carnitine,[M+H]+
+HILIC-pos_Cluster_1691,6.358002,456.40278099999995,C20 carnitine,[M+H]+
+C8-pos_Cluster_0915,5.028875,510.35600300000004,C20:0 LPE,[M+H]+
+C8-pos_Cluster_1610,11.82771,692.632743,C20:3 CE,[M+NH4]+
+C8-pos_Cluster_1635,11.837011,697.588338,C20:3 CE*,[M+Na]+
+HILIC-pos_Cluster_1673,6.219689,448.340197,C20:4 carnitine,[M+Na]+
+C8-pos_Cluster_1623,11.573799000000001,695.573841,C20:4 CE,[M+Na]+
+C8-pos_Cluster_1597,11.569904,690.618702,C20:4 CE,[M+NH4]+
+C8-pos_Cluster_1614,11.316771000000001,693.560861,C20:5 CE,[M+Na]+
+C8-pos_Cluster_1012,4.607839,542.3217490000001,C20:5 LPC,[M+Na]+
+C8-pos_Cluster_1888,9.45803,787.6696559999999,C22:0 SM,[M+H]+
+C8-pos_Cluster_0678,6.778841000000001,435.344659,C22:1 MAG,[M+Na]+
+C8-pos_Cluster_1884,9.157656,785.653145,C22:1 SM,[M+H]+
+C8-pos_Cluster_1722,11.949042,718.649241,C22:4 CE,[M+NH4]+
+C8-pos_Cluster_1742,11.950582,723.6056990000001,C22:4 CE*,[M+Na]+
+C8-pos_Cluster_1712,11.672278,716.636644,C22:5 CE,[M+Na]+
+C8-pos_Cluster_1736,11.681478,721.593876,C22:5 CE*,[M+Na]+
+C8-pos_Cluster_1726,11.439325,719.5746280000001,C22:6 CE,[M+Na]+
+C8-pos_Cluster_1970,9.8734,815.697986,C24:0 SM,[M+H]+
+C8-pos_Cluster_0868,6.457357,493.359345,C24:0 TAG,[M+Na]+
+C8-pos_Cluster_1965,9.494136,813.684583,C24:1 SM,[M+H]+
+C8-pos_Cluster_2019,9.493713,835.6663179999999,C24:1 SM ,[M+Na]+
+C8-pos_Cluster_1070,8.556091,563.467383,C30:0 DAG,[M+Na]+
+C8-pos_Cluster_1186,9.032395,591.495675,C32:0 DAG,[M+Na]+
+C8-pos_Cluster_1761,8.182908,732.555334,C32:1 PC,[M+H]+
+C8-pos_Cluster_1146,8.383768,582.512028,C32:2 DAG*,[M+NH4]+
+C8-pos_Cluster_1302,9.451524000000001,619.526096,C34:0 DAG*,[M+Na]+
+C8-pos_Cluster_1727,8.234821,720.552435,C34:0 PE,[M+H]+
+C8-pos_Cluster_1277,9.166925,612.556705,C34:1 DAG*,[M+NH4]+
+C8-pos_Cluster_1821,8.644594,760.585077,C34:1 PC,[M+H]+
+C8-pos_Cluster_1800,8.937513000000001,746.606622,C34:1 PC plasmalogen-A,[M+H]+
+C8-pos_Cluster_1291,8.857822,615.4963280000001,C34:2 DAG,[M+Na]+
+C8-pos_Cluster_1271,8.857536,610.541065,C34:2 DAG*,[M+NH4]+
+C8-pos_Cluster_1817,8.33618,758.5690559999999,C34:2 PC,[M+H]+
+C8-pos_Cluster_1282,8.566257,613.481674,C34:3 DAG,[M+Na]+
+C8-pos_Cluster_1262,8.565138000000001,608.522785,C34:3 DAG*,[M+NH4]+
+C8-pos_Cluster_1393,9.841556,647.558665,C36:0 DAG,[M+Na]+
+C8-pos_Cluster_1889,9.080408,788.615447,C36:1 PC,[M+H]+
+C8-pos_Cluster_1377,9.289662,643.529436,C36:2 DAG,[M+Na]+
+C8-pos_Cluster_1364,9.289324,638.572444,C36:2 DAG*,[M+NH4]+
+C8-pos_Cluster_1886,8.799074000000001,786.5998950000001,C36:2 PC,[M+H]+
+C8-pos_Cluster_1856,9.078802,772.622539,C36:2 PC plasmalogen,[M+H]+
+HILIC-pos_Cluster_2372,6.4917110000000005,786.59628,C36:2 PC*,[M+H]+
+C8-pos_Cluster_1373,8.991042,641.512618,C36:3 DAG,[M+Na]+
+C8-pos_Cluster_1358,8.989347,636.558642,C36:3 DAG*,[M+NH4]+
+C8-pos_Cluster_1879,8.497757,784.586819,C36:3 PC,[M+H]+
+C8-pos_Cluster_1367,8.686175,639.497236,C36:4 DAG,[M+Na]+
+C8-pos_Cluster_1351,8.686777000000001,634.541003,C36:4 DAG*,[M+NH4]+
+C8-pos_Cluster_1873,8.140944000000001,782.570672,C36:4 PC-A,[M+H]+
+C8-pos_Cluster_1874,8.357279,782.568897,C36:4 PC-B,[M+H]+
+C8-pos_Cluster_1833,8.250746000000001,766.57843,C36:5 PC plasmalogen-A,[M+H]+
+C8-pos_Cluster_1835,8.644664,766.572988,C36:5 PC plasmalogen-B,[M+H]+
+C8-pos_Cluster_1473,8.943306,665.512314,C38:5 DAG*,[M+Na]+
+HILIC-pos_Cluster_0790,8.496400999999999,262.127486,C3-DC-CH3 carnitine,[M+H]+
+HILIC-pos_Cluster_0625,7.889517999999999,232.153366,C4 carnitine,[M+H]+
+C8-pos_Cluster_1799,10.826807,745.631439,C42:0 TAG,[M+Na]+
+C8-pos_Cluster_1791,10.82465,740.678078,C42:0 TAG,[M+NH4]+
+C8-pos_Cluster_1861,11.187667999999999,773.661475,C44:0 TAG,[M+Na]+
+C8-pos_Cluster_1848,11.184397,768.708936,C44:0 TAG*,[M+NH4]+
+C8-pos_Cluster_1854,10.928481,771.647572,C44:1 TAG,[M+Na]+
+C8-pos_Cluster_1837,10.923041,766.6920690000001,C44:1 TAG,[M+NH4]+
+C8-pos_Cluster_1932,11.526178999999999,801.69486,C46:0 TAG,[M+Na]+
+C8-pos_Cluster_1912,11.529200999999999,796.7396269999999,C46:0 TAG*,[M+NH4]+
+C8-pos_Cluster_1922,11.275558,799.678727,C46:1 TAG,[M+Na]+
+C8-pos_Cluster_1907,11.276498,794.722711,C46:1 TAG*,[M+NH4]+
+C8-pos_Cluster_1915,11.024303999999999,797.661789,C46:2 TAG,[M+Na]+
+C8-pos_Cluster_1902,11.023945,792.70552,C46:2 TAG*,[M+NH4]+
+C8-pos_Cluster_2003,11.860174,829.7245849999999,C48:0 TAG,[M+Na]+
+C8-pos_Cluster_1992,11.861366,824.769991,C48:0 TAG*,[M+NH4]+
+C8-pos_Cluster_1997,11.609059,827.710874,C48:1 TAG,[M+Na]+
+C8-pos_Cluster_1995,11.362544,825.694264,C48:2 TAG,[M+Na]+
+C8-pos_Cluster_1976,11.367011,820.737416,C48:2 TAG*,[M+NH4]+
+C8-pos_Cluster_1987,11.118497,823.679486,C48:3 TAG,[M+Na]+
+C8-pos_Cluster_1980,10.864175999999999,821.664125,C48:4 TAG,[M+Na]+
+C8-pos_Cluster_2022,11.764544,836.7706,C49:1 TAG,[M+NH4]+
+C8-pos_Cluster_2088,12.228235,857.7568949999999,C50:0 TAG,[M+Na]+
+C8-pos_Cluster_2081,11.954180000000001,855.741439,C50:1 TAG,[M+Na]+
+C8-pos_Cluster_2064,11.953231,850.785964,C50:1 TAG*,[M+NH4]+
+C8-pos_Cluster_2075,11.695456,853.7260380000001,C50:2 TAG,[M+Na]+
+C8-pos_Cluster_2069,11.456274,851.7098490000001,C50:3 TAG,[M+Na]+
+C8-pos_Cluster_2046,11.453267,846.7541050000001,C50:3 TAG*,[M+NH4]+
+C8-pos_Cluster_2056,11.215287,849.6932419999999,C50:4 TAG,[M+Na]+
+C8-pos_Cluster_2040,11.211007,844.740122,C50:4 TAG*,[M+NH4]+
+C8-pos_Cluster_2048,10.955001,847.680515,C50:5 TAG,[M+Na]+
+C8-pos_Cluster_2130,12.403503,871.768451,C51:0 TAG*,[M+Na]+
+C8-pos_Cluster_2117,11.862853,867.7423779999999,C51:2 TAG*,[M+Na]+
+C8-pos_Cluster_2102,11.864224,862.7854689999999,C51:2 TAG*,[M+NH4]+
+C8-pos_Cluster_2094,11.611664999999999,860.7703339999999,C51:3 TAG*,[M+NH4]+
+C8-pos_Cluster_2168,12.605217,885.787857,C52:0 TAG,[M+Na]+
+C8-pos_Cluster_2154,12.610294999999999,880.832798,C52:0 TAG*,[M+NH4]+
+C8-pos_Cluster_2161,12.311181,883.772469,C52:1 TAG,[M+Na]+
+C8-pos_Cluster_2147,12.304072999999999,878.810885,C52:1 TAG*,[M+NH4]+
+C8-pos_Cluster_2156,12.046012,881.757443,C52:2 TAG,[M+Na]+
+C8-pos_Cluster_2140,12.044946000000001,876.802961,C52:2 TAG*,[M+NH4]+
+C8-pos_Cluster_2149,11.790252,879.7417960000001,C52:3 TAG,[M+Na]+
+C8-pos_Cluster_2136,11.787681,874.786794,C52:3 TAG*,[M+NH4]+
+C8-pos_Cluster_2141,11.540258999999999,877.7259650000001,C52:4 TAG,[M+Na]+
+C8-pos_Cluster_2132,11.539806,872.7714300000001,C52:4 TAG*,[M+NH4]+
+C8-pos_Cluster_2138,11.307025999999999,875.712613,C52:5 TAG,[M+Na]+
+C8-pos_Cluster_2124,11.307079,870.755439,C52:5 TAG*,[M+NH4]+
+C8-pos_Cluster_2134,11.066022,873.6943150000001,C52:6 TAG,[M+Na]+
+C8-pos_Cluster_2119,11.066136,868.738923,C52:6 TAG*,[M+NH4]+
+C8-pos_Cluster_2128,10.821649,871.682557,C52:7 TAG,[M+Na]+
+C8-pos_Cluster_2192,11.968144,893.7566,C53:3 TAG*,[M+Na]+
+C8-pos_Cluster_2178,11.96217,888.7981130000001,C53:3 TAG*,[M+NH4]+
+C8-pos_Cluster_2242,12.68823,911.8053259999999,C54:1 TAG,[M+Na]+
+C8-pos_Cluster_2240,12.407129,909.790505,C54:2 TAG,[M+Na]+
+C8-pos_Cluster_2233,12.150266,907.7728960000001,C54:3 TAG,[M+Na]+
+C8-pos_Cluster_2218,12.147274000000001,902.8167070000001,C54:3 TAG*,[M+NH4]+
+C8-pos_Cluster_2226,11.891407000000001,905.756823,C54:4 TAG,[M+Na]+
+C8-pos_Cluster_2211,11.888264,900.8022050000001,C54:4 TAG*,[M+NH4]+
+C8-pos_Cluster_2220,11.640319,903.7424990000001,C54:5 TAG,[M+Na]+
+C8-pos_Cluster_2207,11.63787,898.7863390000001,C54:5 TAG*,[M+NH4]+
+C8-pos_Cluster_2215,11.397791,901.725337,C54:6 TAG,[M+Na]+
+C8-pos_Cluster_2201,11.395511,896.7712550000001,C54:6 TAG*,[M+NH4]+
+C8-pos_Cluster_2210,11.166372,899.709334,C54:7 TAG,[M+Na]+
+C8-pos_Cluster_2202,10.918401,897.696173,C54:8 TAG,[M+Na]+
+C8-pos_Cluster_2197,10.673255000000001,895.679848,C54:9 TAG,[M+Na]+
+C8-pos_Cluster_2284,12.586698,923.7993,C55:2 TAG*,[M+Na]+
+C8-pos_Cluster_2277,12.315408999999999,921.785871,C55:3 TAG*,[M+Na]+
+C8-pos_Cluster_2319,13.10915,939.834558,C56:1 TAG,[M+Na]+
+C8-pos_Cluster_2308,13.106710000000001,934.879787,C56:1 TAG*,[M+NH4]+
+C8-pos_Cluster_2313,12.791267999999999,937.8200210000001,C56:2 TAG,[M+Na]+
+C8-pos_Cluster_2306,12.789232,932.864434,C56:2 TAG*,[M+NH4]+
+C8-pos_Cluster_2311,12.502167,935.805034,C56:3 TAG,[M+Na]+
+C8-pos_Cluster_2303,12.499672,930.847883,C56:3 TAG*,[M+NH4]+
+C8-pos_Cluster_2307,12.234596,933.7892529999999,C56:4 TAG,[M+Na]+
+C8-pos_Cluster_2297,12.231816,928.83376,C56:4 TAG*,[M+NH4]+
+C8-pos_Cluster_2304,11.970844999999999,931.772886,C56:5 TAG,[M+Na]+
+C8-pos_Cluster_2300,11.721509,929.758223,C56:6 TAG,[M+Na]+
+C8-pos_Cluster_2286,11.729345,924.801313,C56:6 TAG*,[M+NH4]+
+C8-pos_Cluster_2293,11.482028,927.7439619999999,C56:7 TAG,[M+Na]+
+C8-pos_Cluster_2345,12.067555,957.790733,C58:6 TAG,[M+Na]+
+C8-pos_Cluster_2341,11.816957,955.767833,C58:7 TAG,[M+Na]+
+HILIC-pos_Cluster_0405,2.823607,195.08719,caffeine,[M+H]+
+HILIC-neg_Cluster_0064,3.727128,115.07651499999999,caproic acid,[M-H]-
+HILIC-neg_Cluster_0156,3.603307,143.107448,caprylic acid,[M-H]-
+HILIC-pos_Cluster_0230,8.756221,162.111937,carnitine,[M+H]+
+HILIC-pos_Cluster_0590,9.298983,227.11306000000002,carnosine,[M+H]+
+C18-neg_Cluster_0486,10.794002,329.175684,carnosol,[M-H]-
+C18-neg_Cluster_1045,10.555839,427.26160300000004,chenodeoxycholate,[M+Cl]-
+C18-neg_Cluster_0832,10.555098,391.284991,chenodeoxycholate,[M-H]-
+C18-neg_Cluster_1292,10.556944,459.27258200000006,chenodeoxycholate,[Unknown]-
+C18-neg_Cluster_1060,10.555864,429.25886299999996,chenodeoxycholate,[Unknown]-
+C18-neg_Cluster_1129,10.556245,438.291909,chenodeoxycholate,[Unknown]-
+HILIC-neg_Cluster_1360,4.051794,391.285236,chenodeoxycholate/deoxycholate*,[M-H]-
+C18-neg_Cluster_1258,9.128414999999999,453.28609500000005,cholate,[M+FA-H]-
+C18-neg_Cluster_0930,9.127927,407.280078,cholate,[M-H]-
+HILIC-neg_Cluster_1403,4.211117,407.279787,cholate,[M-H]-
+C18-neg_Cluster_1178,9.128149,445.25325,cholate,[Unknown]-
+C18-neg_Cluster_1273,9.127798,455.290179,cholate,[Unknown]-
+C18-neg_Cluster_1372,9.126422999999999,470.275041,cholate,[Unknown]-
+C18-neg_Cluster_1621,9.126215,507.20440999999994,cholate,[Unknown]-
+C18-neg_Cluster_1722,9.127678,525.214869,cholate,[Unknown]-
+C8-pos_Cluster_1849,7.003781,769.6843259999999,cholestenone,[2M+H]+
+C8-pos_Cluster_1900,7.005319,791.667671,cholestenone,[2M+Na]+
+C8-pos_Cluster_0478,7.006923,385.346243,cholestenone,[M+H]+
+C8-pos_Cluster_0554,7.008068,407.32828900000004,cholestenone,[M+Na]+
+C8-pos_Cluster_0629,7.005191,425.33897699999994,cholestenone,[M-H2O+Na]+
+C8-pos_Cluster_0705,7.003234,443.399209,cholestenone,[Unknown]
+C8-pos_Cluster_0416,7.2170119999999995,369.351917,cholesterol,[M-H2O+Na]+
+HILIC-pos_Cluster_0022,8.170531,104.107031,choline,[M+H]+
+HILIC-neg_Cluster_0392,9.415773,191.019484,citrate,[M-H]-
+HILIC-pos_Cluster_0306,8.357386,176.102204,citrulline,[M+H]+
+HILIC-neg_Cluster_0296,3.641507,174.088119,citrulline,[M-H]-
+HILIC-pos_Cluster_0090,8.298269,132.07633,creatine,[M+H]+
+HILIC-pos_Cluster_0036,6.423718,114.066154,creatinine,[M+H]+
+HILIC-neg_Cluster_0677,6.288915,239.01636000000002,cystine,[M-H]-
+HILIC-pos_Cluster_0032,6.12461,112.050537,cytosine,[M+H]+
+C18-neg_Cluster_0833,10.769622,391.28546800000004,deoxycholic acid,[M-H]-
+HILIC-pos_Cluster_0734,4.976754,253.092331,deoxyinosine,[M+H]+
+HILIC-neg_Cluster_0740,2.786193,251.07802200000003,deoxyinosine,[M-H]-
+HILIC-pos_Cluster_0936,10.204002000000001,287.242938,diacetylspermine,[M+H]+
+HILIC-neg_Cluster_0199,4.819287999999999,153.018996,dihydroxybenzoic acid,[M-H]-
+HILIC-pos_Cluster_0298,10.220459,175.143734,dimethyllysine,[M+H]+
+C18-neg_Cluster_0472,14.089371,327.23262,docosahexaenoic acid,[M-H]-
+HILIC-neg_Cluster_1126,3.185725,329.248268,docosapentaenoate,[M-H]-
+C18-neg_Cluster_0490,14.446319,329.248634,docosapentaenoic acid,[M-H]-
+C18-neg_Cluster_0863,14.443007999999999,397.235541,docosapentaenoic acid,[M-H+Na-2H]-
+C18-neg_Cluster_0729,14.444973000000001,375.253555,docosapentaenoic acid ,[M+FA-H]-
+C18-neg_Cluster_1324,14.441559,465.223168,docosapentaenoic acid ,[Unknown]-
+C18-neg_Cluster_0111,8.008681,229.14387599999998,dodecanedioic acid,[M-H]-
+HILIC-neg_Cluster_1002,3.237376,301.216907,eicosapentaenoic acid,[M-H]-
+C18-neg_Cluster_0351,13.624069,301.217166,eicosapentaenoic acid,[M-H]-
+C18-neg_Cluster_0591,14.777768,351.253912,eicosatrienoic acid,[M+FA-H]-
+C18-neg_Cluster_0361,14.77699,305.248483,eicosatrienoic acid,[M-H]-
+C18-neg_Cluster_0373,16.115366,309.279965,eicosenoate,[M-H]-
+C8-pos_Cluster_0737,7.858286,449.37407800000005,epoxysqualene,[M+Na]+
+HILIC-neg_Cluster_0122,4.425441999999999,135.029822,erythronic acid,[M-H]-
+HILIC-pos_Cluster_0913,1.683218,283.262043,ethyl 9-hexadecenoate,[M+H]+
+HILIC-neg_Cluster_0562,4.0301860000000005,221.066307,ethyl glucuronide,[M-H]-
+HILIC-neg_Cluster_0321,2.156899,179.055912,fructose/glucose/galactose*,[M-H]-
+HILIC-neg_Cluster_0237,1.587833,163.061029,fucose,[M-H]-
+HILIC-neg_Cluster_0061,7.3254850000000005,115.00351,fumarate/maleate*,[M-H]-
+HILIC-pos_Cluster_0658,1.89888,239.163255,geranyl acetoacetate*,[M+H]+
+HILIC-pos_Cluster_0657,1.751914,239.163339,geranyl acetoacetate*,[M+H]+
+HILIC-neg_Cluster_0401,5.450615,193.035127,glucurote,[M-H]-
+HILIC-pos_Cluster_0160,7.613392999999999,148.059769,glutamate,[M+H]+
+HILIC-neg_Cluster_0166,5.321273000000001,146.045723,glutamate,[M-H]-
+HILIC-pos_Cluster_0156,8.046524,147.075928,glutamine,[M+H]+
+HILIC-neg_Cluster_0162,3.6950589999999996,145.06181999999998,glutamine,[M-H]-
+HILIC-neg_Cluster_0036,4.394749,105.01919199999999,glycerate,[M-H]-
+HILIC-neg_Cluster_1571,4.042977,464.301241,glycocholate,[M-H]-
+C18-neg_Cluster_1196,9.51775,448.306747,glycodeoxycholic acid,[M-H]-
+C18-neg_Cluster_1081,10.904173,432.311815,glycolithocholic acid,[M-H]-
+C18-neg_Cluster_1197,8.102488000000001,448.30686,glycoursodeoxycholic acid,[M-H]-
+HILIC-neg_Cluster_0182,2.648227,150.041827,guanine,[M-H]-
+HILIC-neg_Cluster_0909,3.0556650000000003,282.084094,guanosine,[M-H]-
+HILIC-neg_Cluster_0841,3.279936,269.248492,heptadecanoate,[M-H]-
+C18-neg_Cluster_0268,10.78202,285.206703,hexadecanedioic acid,[M-H]-
+HILIC-pos_Cluster_0033,9.120918,112.086877,histamine,[M+H]+
+HILIC-neg_Cluster_0201,4.037108,154.061827,histidine,[M-H]-
+HILIC-neg_Cluster_0328,4.570257,181.050492,homovanillate,[M-H]-
+HILIC-neg_Cluster_0181,3.875114,149.060668,hydrocinnamic acid,[M-H]-
+HILIC-neg_Cluster_0070,3.7142190000000004,117.05564299999999,hydroxyisovaleric acid,[M-H]-
+HILIC-pos_Cluster_0089,7.892167999999999,132.065131,hydroxyproline,[M+H]+
+C18-neg_Cluster_0830,9.249408,391.28508999999997,hyodeoxycholate/ursodeoxycholate*,[M-H]-
+HILIC-pos_Cluster_0108,4.825591999999999,137.045333,hypoxanthine,[M+H]+
+HILIC-neg_Cluster_0123,3.2523619999999998,135.031148,hypoxanthine,[M-H]-
+HILIC-pos_Cluster_0121,7.393472,141.065236,imidazole propionate,[M+H]+
+HILIC-neg_Cluster_0204,4.568166000000001,155.045875,imidazolelactate,[M-H]-
+HILIC-pos_Cluster_0822,4.862826,269.08699900000005,inosine,[M+H]+
+HILIC-neg_Cluster_0824,3.3967440000000004,267.072637,inosine,[M-H]-
+HILIC-pos_Cluster_0092,7.039731,132.101601,isoleucine,[M+H]+
+C18-neg_Cluster_0900,8.346794000000001,405.26440299999996,ketodeoxycholate,[M-H]-
+HILIC-pos_Cluster_0383,5.218416,190.049178,kynurenic acid,[M+H]+
+HILIC-pos_Cluster_0521,6.360789,217.096207,"L-1,2,3,4-tetrahydro-beta-carboline-3-carboxylic acid*",[M+H]+
+HILIC-neg_Cluster_0020,4.030335,89.024276,lactate,[M-H]-
+HILIC-neg_Cluster_1170,2.609105,341.108598,lactose,[M-H]-
+HILIC-pos_Cluster_0091,6.9110320000000005,132.101541,leucine,[M+H]+
+HILIC-neg_Cluster_0105,2.6240669999999997,130.087084,leucine,[M-H]-
+HILIC-neg_Cluster_0230,7.130819,161.045377,levoglucosan,[M-H]-
+C18-neg_Cluster_0246,14.484832,279.23294300000003,linoleic acid,[M-H]-
+HILIC-neg_Cluster_1325,1.076403,382.295979,linoleoyl ethanolamide,[M+CH3COO]-
+HILIC-pos_Cluster_1160,1.942824,326.303789,linoleoyl ethanolamide,[Unknown]+
+C8-pos_Cluster_1495,4.768315,669.5544719999999,linoleoyl ethanolamide ,[2M+Na]+
+C8-pos_Cluster_0264,4.769408,324.29021800000004,linoleoyl ethanolamide ,[M+H]+
+HILIC-pos_Cluster_1148,1.941643,324.28841,linoleoyl ethanolamide ,[M+H]+
+C8-pos_Cluster_0339,4.773251,346.271831,linoleoyl ethanolamide ,[M+Na]+
+HILIC-neg_Cluster_1088,1.067339,322.27492,linoleoyl ethanolamide ,[M-H]-
+HILIC-neg_Cluster_1303,3.949561,375.29019500000004,lithocholate,[M-H]-
+C18-neg_Cluster_0731,12.432525,375.29013,lithocholic acid,[M-H]-
+HILIC-neg_Cluster_0247,3.8208660000000005,165.05539299999998,L-phenyllactic acid,[M-H]-
+HILIC-pos_Cluster_0157,9.37,147.112492,lysine,[M+H]+
+HILIC-neg_Cluster_0118,7.324072999999999,133.014111,malate,[M-H]-
+HILIC-neg_Cluster_0033,7.481364999999999,103.003626,malonate,[M-H]-
+C18-neg_Cluster_1680,11.823681,517.353113,maslinic acid,[M+FA-H]-
+C18-neg_Cluster_1385,11.823927000000001,471.347521,maslinic acid,[M-H]-
+C18-neg_Cluster_1803,11.824683,539.33415,maslinic acid,[Unknown]-
+C18-neg_Cluster_2068,11.824200999999999,607.321568,maslinic acid,[Unknown]-
+HILIC-pos_Cluster_0167,6.997128,150.057729,methionine,[M+H]+
+HILIC-neg_Cluster_0173,3.157803,148.04366000000002,methionine,[M-H]-
+HILIC-pos_Cluster_0244,8.618428999999999,166.05276899999998,methionine sulfoxide,[M+H]+
+HILIC-neg_Cluster_0030,3.7986400000000002,101.06065,methylbutyric aid / valeric / isovaleric*,[M-H]-
+HILIC-pos_Cluster_0191,4.249376,153.065281,methylpyridonecarboxamide,[M+H]+
+C18-neg_Cluster_0107,14.008037,227.20084500000002,myristic acid,[M-H]-
+HILIC-neg_Cluster_0372,7.016821,188.056303,N-acetylglutamate,[M-H]-
+HILIC-pos_Cluster_0384,4.5095,190.070536,N-acetylglutamic acid,[M+H]+
+HILIC-pos_Cluster_0495,4.512608999999999,212.052212,N-acetylglutamic acid,[M+Na]+
+HILIC-pos_Cluster_0419,8.356582000000001,198.084419,N-acetylhistidine,[M+H]+
+HILIC-pos_Cluster_0524,8.115299,217.12866,N-acetyl-L-arginine,[M+H]+
+HILIC-pos_Cluster_0086,7.827926,131.11756,N-acetylputrescine,[M+H]+
+HILIC-pos_Cluster_0038,7.827839999999999,114.09128899999999,N-acetylputrescine,[Unknown]+
+HILIC-pos_Cluster_0374,9.710596,188.175124,N-acetylspermidine,[M+H]+
+C18-neg_Cluster_0672,17.959622,365.342106,nervonic acid,[M-H]-
+HILIC-neg_Cluster_0082,4.196408,122.02469599999999,nicotinate,[M-H]-
+HILIC-pos_Cluster_0062,3.650861,124.039165,nicotinic acid,[M+H]+
+HILIC-pos_Cluster_0082,8.568446,130.086042,N-methylproline,[M+H]+
+HILIC-pos_Cluster_0378,9.336896000000001,189.13388500000002,NMMA,[M+H]+
+C8-pos_Cluster_0341,5.107714,348.28717,N-oleoylethanolamine ,[M+Na]+
+C18-neg_Cluster_1596,13.873410999999999,501.358025,oleanolic acid,[M+FA-H]-
+C18-neg_Cluster_1275,13.87466,455.35279699999995,oleanolic acid,[M-H]-
+C18-neg_Cluster_0250,15.272048999999999,281.24855099999996,oleic acid,[M-H]-
+HILIC-pos_Cluster_0100,9.281319,133.096824,ornithine,[M+H]+
+HILIC-neg_Cluster_0203,4.709074,155.009615,orotate,[M-H]-
+HILIC-neg_Cluster_0016,7.766292,88.987993,oxalate,[M-H]-
+C18-neg_Cluster_0171,15.15693,255.232602,palmitic acid,[M-H]-
+C18-neg_Cluster_0164,14.212543,253.216969,palmitoleic acid,[M-H]-
+C8-pos_Cluster_0288,5.126296,331.28387200000003,palmitoyl glycerol,[M+H]+
+C18-neg_Cluster_0515,13.727848000000002,334.25178,palmitoylethanolamide,[M+Cl]-
+C18-neg_Cluster_0563,13.726076999999998,344.280356,palmitoylethanolamide,[M+FA]-
+C8-pos_Cluster_0168,4.923001999999999,300.289632,palmitoylethanolamide,[M+H]+
+HILIC-pos_Cluster_0540,3.034481,220.117078,pantothenate,[M+H]+
+HILIC-neg_Cluster_0552,4.073403,218.10299700000002,pantothete,[M-H]-
+HILIC-neg_Cluster_0697,3.341595,241.217098,pentadecanoate,[M-H]-
+HILIC-neg_Cluster_0125,3.972693,135.045062,phenylacetate,[M-H]-
+HILIC-pos_Cluster_0248,6.660172,166.085878,phenylalanine,[M+H]+
+HILIC-neg_Cluster_0242,3.23711,164.071506,phenylalanine,[M-H]-
+C18-neg_Cluster_0031,2.554265,165.054458,phenyllactate,[M-H]-
+C18-neg_Cluster_0019,1.4702620000000002,151.03876499999998,p-hydroxyphenylacetate,[M-H]-
+HILIC-pos_Cluster_1113,5.807391,318.298969,phytosphingosine,[M+H]+
+HILIC-pos_Cluster_0081,7.930975999999999,130.086018,pipecolic acid,[M+H]+
+C8-pos_Cluster_0136,3.671675,286.143984,piperine,[M+H]+
+HILIC-pos_Cluster_0927,1.891232,286.142786,piperine,[M+H]+
+HILIC-pos_Cluster_0041,8.073911,116.070546,proline,[M+H]+
+HILIC-neg_Cluster_0059,3.059664,114.05598799999999,proline,[M-H]-
+HILIC-pos_Cluster_0134,9.166394,144.10134399999998,proline betaine,[M+H]+
+HILIC-neg_Cluster_0003,4.047601,73.02932,propionate,[M-H]-
+HILIC-neg_Cluster_0707,2.338077,243.06193100000002,pseudouridine,[M-H]-
+HILIC-pos_Cluster_0007,9.291155,89.10765500000001,putrescine,[M+H]+
+HILIC-pos_Cluster_0268,9.033352,169.09659299999998,pyridoxamine,[M+H]+
+HILIC-pos_Cluster_0184,9.029533,152.069805,pyridoxamine,[M-OH+H]+
+HILIC-neg_Cluster_0040,1.455358,109.029385,pyrocatechol,[M-H]-
+HILIC-pos_Cluster_0079,8.044523,130.0495,pyroglutamic acid,[M+H]+
+HILIC-neg_Cluster_0192,1.7577459999999998,151.06086000000002,ribitol,[M-H]-
+HILIC-neg_Cluster_1300,1.613945,375.130015,riboflavin,[M-H]-
+HILIC-neg_Cluster_0332,3.810657,181.99164,saccharin,[M-H]-
+HILIC-neg_Cluster_0129,3.955146,137.02418400000002,salicylate,[M-H]-
+C18-neg_Cluster_0064,6.184348,201.112299,sebacate,[M-H]-
+HILIC-neg_Cluster_0441,7.092408,201.113094,sebacate,[M-H]-
+HILIC-pos_Cluster_0024,7.67572,106.04989099999999,serine,[M+H]+
+HILIC-neg_Cluster_0035,4.041081,104.035333,serine,[M-H]-
+HILIC-neg_Cluster_0283,4.737642,173.04491299999998,shikimate,[M-H]-
+HILIC-neg_Cluster_0331,2.01362,181.071617,sorbitol,[M-H]-
+HILIC-pos_Cluster_1017,5.7067309999999996,302.303848,sphinganine,[M+H]+
+C8-pos_Cluster_0166,4.204833,300.289756,sphingosine,[M+H]+
+C8-pos_Cluster_0123,4.220022,282.27904700000005,sphingosine,[M+H-H2O]+
+C8-pos_Cluster_0253,4.212764,322.271398,sphingosine,[M+Na]+
+C8-pos_Cluster_0988,4.211524,535.35428,sphingosine,[Unknown]+
+C18-neg_Cluster_0256,16.09378,283.26395,stearic acid,[M-H]-
+C8-pos_Cluster_0277,5.494829,328.320676,stearoyl ethanolamide,[M+H]+
+HILIC-neg_Cluster_0288,7.142564,173.08158400000002,suberate,[M-H]-
+HILIC-neg_Cluster_0069,7.266082000000001,117.01921399999999,succite,[M-H]-
+HILIC-neg_Cluster_0174,7.406051,149.008724,tartarate,[M-H]-
+HILIC-pos_Cluster_0066,6.103439,126.02180600000001,taurine,[M+H]+
+HILIC-neg_Cluster_0085,3.7229910000000004,124.007185,taurine,[M-H]-
+C18-neg_Cluster_1574,8.289154,498.28910700000006,taurochenodesoxycholic acid,[M-H]-
+HILIC-neg_Cluster_1675,3.560883,498.289509,taurodeoxycholate/taurochenodeoxycholate*,[M-H]-
+C18-neg_Cluster_1575,8.547102,498.289493,taurodeoxycholic acid,[M-H]-
+C18-neg_Cluster_1576,7.2630419999999996,498.289624,taurohyodeoxycholate/ tauroursodeoxycholate,[M-H]-
+C18-neg_Cluster_1465,9.710907,482.29421399999995,taurolithocholic acid,[M-H]-
+C18-neg_Cluster_0177,9.442364,257.175625,tetradecanedioate,[M-H]-
+HILIC-pos_Cluster_0797,9.50362,265.11053599999997,thiamine,[M]+
+HILIC-pos_Cluster_0049,7.599189,120.065478,threonine,[M+H]+
+HILIC-neg_Cluster_0073,3.671176,118.05084,threonine,[M-H]-
+HILIC-pos_Cluster_0998,5.676804,300.288345,threosphingosine,[M+H]+
+HILIC-pos_Cluster_0906,5.683548,282.27795,threosphingosine,[M-H2O]+
+HILIC-neg_Cluster_0087,1.350997,125.035549,thymine,[M-H]-
+HILIC-pos_Cluster_0172,7.6400809999999995,150.11187900000002,triethanolamine,[M+H]+
+HILIC-pos_Cluster_0113,8.845482,138.054606,trigonelline,[M+H]+
+HILIC-pos_Cluster_0054,1.656798,121.10095600000001,trimethylbenzene*,[M+H]+
+HILIC-pos_Cluster_0379,11.169333,189.158863,trimethyllysine,[M+H]+
+HILIC-pos_Cluster_0455,6.454701999999999,205.09633300000002,tryptophan,[M+H]+
+HILIC-neg_Cluster_0452,3.456332,203.08251,tryptophan,[M-H]-
+HILIC-pos_Cluster_0333,6.783577,182.080679,tyrosine,[M+H]+
+HILIC-neg_Cluster_0324,3.7704370000000003,180.066485,tyrosine,[M-H]-
+C18-neg_Cluster_0079,7.187602,215.128083,undecanedionate,[M-H]-
+HILIC-neg_Cluster_0049,1.546029,111.019898,uracil,[M-H]-
+HILIC-neg_Cluster_0254,5.354563,167.020718,urate,[M-H]-
+HILIC-neg_Cluster_0706,1.7966229999999999,243.061889,uridine,[M-H]-
+C18-neg_Cluster_2021,6.512715,593.334522,urobilin,[M-H]-
+HILIC-pos_Cluster_2093,6.422733999999999,595.346201,urobilin*,[M+H]+
+HILIC-pos_Cluster_0116,4.504729,139.04987,urocanic acid,[M+H]+
+HILIC-pos_Cluster_0046,7.356814999999999,118.08614299999999,valine,[M+H]+
+HILIC-neg_Cluster_0066,2.876993,116.071554,valine,[M-H]-
+HILIC-neg_Cluster_0187,5.116361,151.02576499999998,xanthine,[M-H]-
+HILIC-neg_Cluster_0176,1.627438,149.045268,xylose,[M-H]-

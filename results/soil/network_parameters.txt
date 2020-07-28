@@ -1,0 +1,1 @@
+{"num_layer": 1, "layer_nodes": 128.0, "l1": 1e-03, "l2": 1e-03, "dropout": 0.25, "learning_rate": 0.0001}
