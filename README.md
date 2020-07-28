@@ -54,7 +54,11 @@ usage: MiMeNet_train.py [-h] -micro MICRO -metab METAB
 ### Example for provided dataset
 
 ```bash
-python MiMeNet_train.py -micro data/IBD/microbiome_PRISM.csv -metab data/IBD/metabolome_PRISM.csv -external_micro data/IBD/microbiome_external.csv -external_metab data/IBD/metabolome_external.csv -micro_norm None -metab_norm CLR -net_params results/IBD/network_parameters.txt -annotation data/IBD/metabolome_annotation.csv -labels data/IBD/diagnosis_PRISM.csv -num_run_cv 10 -output IBD```
+python MiMeNet_train.py -micro data/IBD/microbiome_PRISM.csv -metab data/IBD/metabolome_PRISM.csv \
+                        -external_micro data/IBD/microbiome_external.csv -external_metab data/IBD/metabolome_external.csv \
+                        -micro_norm None -metab_norm CLR -net_params results/IBD/network_parameters.txt \
+                        -annotation data/IBD/metabolome_annotation.csv -labels data/IBD/diagnosis_PRISM.csv \
+                        -num_run_cv 10 -output IBD
 ```
 
 The provided command will run MiMeNet on the IBD dataset and store results in the directory _results/output_dir_. 
