@@ -9,11 +9,10 @@ MiMeNet predicts the metabolomic profile from microbiome data and learns undelry
   - Pandas 0.25.1
   - Scipy 1.3.1
   - Scikit-learn 0.21.3
+  - Scikit-bio 0.5.2
   - Matplotlib 3.0.3
   - Seaborn 0.9.0
-
-A Conda Python environment is provided in pseudocell_tracer.yml
-
+  
 
 ### Usage
 
