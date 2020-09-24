@@ -2,7 +2,6 @@ import warnings
 warnings.filterwarnings("ignore")
 import os
 
-import biom
 import json
 import argparse
 import time
