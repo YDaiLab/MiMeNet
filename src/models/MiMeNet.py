@@ -1,10 +1,18 @@
 import os
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
 import sys
 import tensorflow as tf
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import KFold
 from scipy.stats import spearmanr
+from tensorflow.keras.wrappers.scikit_learn import KerasRegressor
+from sklearn.model_selection import RandomizedSearchCV
+from scipy.stats import spearmanr
+from sklearn.metrics import make_scorer
+import numpy as np
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
@@ -17,7 +25,6 @@ class MiMeNet():
         reg = tf.keras.regularizers.L1L2(l1, l2)
         
         self.model = tf.keras.Sequential()
-        self.model.add(tf.keras.layers.GaussianNoise(gaussian_noise))
         for l in range(num_layer):
             self.model.add(tf.keras.layers.Dense(layer_nodes, activation='relu', kernel_regularizer=reg, bias_regularizer=reg, name="fc" + str(l)))
             self.model.add(tf.keras.layers.Dropout(dropout))
@@ -72,203 +79,58 @@ class MiMeNet():
         return self.num_layer, self.layer_nodes, self.l1, self.l2, self.dropout, self.learning_rate
     
 def tune_MiMeNet(train, seed=None):
-    micro, metab = train
-    best_corr = -1
+    best_score = -1000
+    best_params = []
     
-    kf = KFold(n_splits=5, shuffle=True, random_state=seed)
-    r = 0
+    micro, metab = train    
+    def build_model(num_layer=1, layer_nodes=128, 
+                 l1=0.0001, l2=0.0001, dropout=0.25, batch_size=1024, patience=40,
+                 lr=0.0001, seed=42, gaussian_noise=0):
+
+        reg = tf.keras.regularizers.L1L2(l1, l2)
+        
+        model = tf.keras.Sequential()
+        model.add(tf.keras.layers.Input(micro.shape[1]))
+        for l in range(num_layer):
+            model.add(tf.keras.layers.Dense(layer_nodes, activation='relu', 
+                                                 kernel_regularizer=reg, bias_regularizer=reg, name="fc" + str(l)))
+            model.add(tf.keras.layers.Dropout(dropout))
+        model.add(tf.keras.layers.Dense(metab.shape[1], activation='linear', 
+                                             kernel_regularizer=reg, bias_regularizer=reg, name="output"))
+        model.compile(optimizer=tf.keras.optimizers.Adam(lr), loss='MSE', metrics=["mse"])
+        return model
+    es_cb = tf.keras.callbacks.EarlyStopping('val_loss', patience=40, restore_best_weights=True)
+
+    def my_custom_loss_func(y_true, y_pred):
+        diff = np.float(pd.DataFrame(y_true).corrwith(pd.DataFrame(y_pred)).mean())
+        return diff
     
-    for l in range(1,4):
-        best_l_corr = -1
-        best_lr = 0.0001
-        best_l1 = 0.00001
-        best_l2 = 0.00001
-        best_layer_size = 32
-        best_drop = 0.15
-        
-        is_better = True
+    scorer = make_scorer(my_custom_loss_func, greater_is_better=True)
+    callbacks = [es_cb]
+    
+    #_l1_lambda = np.logspace(-4,-2,50)
+    _l1_lambda = [0]
+    _l2_lambda = np.logspace(-4,-1,10)
+    _num_layer = [1,2,3]
+    _layer_nodes = [32,128,512]
+    _dropout = [0.1,0.3,0.5]
+    _learning_rate = [0.001]
+    params=dict(l1=_l1_lambda, l2=_l2_lambda, num_layer=_num_layer,
+                layer_nodes = _layer_nodes, dropout=_dropout, lr=_learning_rate)
+    
 
-        while is_better:
-            
-            p_list = []
-            y_list = []
-            
-            for train_index, test_index in kf.split(micro):
-                train_micro, test_micro = micro[train_index], micro[test_index]
-                train_metab, test_metab = metab[train_index], metab[test_index]
+    
+    
+    for i in range(20):
+        model = KerasRegressor(build_fn=build_model,epochs=1000,batch_size=1024, verbose=0)
 
-                model = MiMeNet(train_micro.shape[1], train_metab.shape[1], l1=best_l1, l2=best_l2, dropout=best_drop,
-                            num_layer=l, layer_nodes=best_layer_size, lr=best_lr)
-
-                model.train((train_micro, train_metab))
-                p = model.test((test_micro, test_metab))
-
-                p_list = list(p_list) + list(p)
-                y_list = list(y_list) + list(test_metab)
-
-                model.destroy()
-                tf.keras.backend.clear_session()
-                
-            corr = pd.DataFrame(np.array(y_list)).corrwith(pd.DataFrame(np.array(p_list)), method="spearman").mean()
-            if corr >= best_l_corr:
-                best_l_corr = corr
-                best_layer_size = best_layer_size * 2
-                is_better = True
-                if corr > best_corr:
-                    best_params = model.get_params()
-                
-            else:
-                is_better = False
-                best_layer_size = best_layer_size/2
-
-        is_better = True
-        
-
-        while is_better:
-            
-            p_list = []
-            y_list = []
-            
-            for train_index, test_index in kf.split(micro):
-                train_micro, test_micro = micro[train_index], micro[test_index]
-                train_metab, test_metab = metab[train_index], metab[test_index]
-
-                model = MiMeNet(train_micro.shape[1], train_metab.shape[1], l1=best_l1, l2=best_l2, dropout=best_drop,
-                            num_layer=l, layer_nodes=best_layer_size, lr=best_lr)
-
-                model.train((train_micro, train_metab))
-                p = model.test((test_micro, test_metab))
-
-                p_list = list(p_list) + list(p)
-                y_list = list(y_list) + list(test_metab)
-                
-                model.destroy()
-                tf.keras.backend.clear_session()
-                
-            corr = pd.DataFrame(np.array(y_list)).corrwith(pd.DataFrame(np.array(p_list)), method="spearman").mean()
-            if corr >= best_l_corr:
-                best_l_corr = corr
-                best_layer_size = best_lr * 2
-                is_better = True
-                if corr > best_corr:
-                    best_params = model.get_params()
-                
-            else:
-                is_better = False
-                best_lr = best_lr/2
-
-        is_better = True
-
-
-
-        while is_better:
-            
-            p_list = []
-            y_list = []
-            
-            for train_index, test_index in kf.split(micro):
-                train_micro, test_micro = micro[train_index], micro[test_index]
-                train_metab, test_metab = metab[train_index], metab[test_index]
-
-                model = MiMeNet(train_micro.shape[1], train_metab.shape[1], l1=best_l1, l2=best_l2, dropout=best_drop,
-                            num_layer=l, layer_nodes=best_layer_size, lr=best_lr)
-
-                model.train((train_micro, train_metab))
-                p = model.test((test_micro, test_metab))
-
-                p_list = list(p_list) + list(p)
-                y_list = list(y_list) + list(test_metab)
-
-                model.destroy()
-                tf.keras.backend.clear_session()
-                                
-            corr = pd.DataFrame(np.array(y_list)).corrwith(pd.DataFrame(np.array(p_list)), method="spearman").mean()
-            if corr >= best_l_corr:
-                best_l_corr = corr
-                best_11 = best_l1 * 2
-                is_better = True
-                if corr > best_corr:
-                    best_params = model.get_params()
-                
-            else:
-                is_better = False
-                best_l1 = best_l1/2
-
-        is_better = True
-        
-        
-        while is_better:
-            
-            p_list = []
-            y_list = []
-            
-            for train_index, test_index in kf.split(micro):
-                train_micro, test_micro = micro[train_index], micro[test_index]
-                train_metab, test_metab = metab[train_index], metab[test_index]
-
-                model = MiMeNet(train_micro.shape[1], train_metab.shape[1], l1=best_l1, l2=best_l2, dropout=best_drop,
-                            num_layer=l, layer_nodes=best_layer_size, lr=best_lr)
-
-                model.train((train_micro, train_metab))
-                p = model.test((test_micro, test_metab))
-
-                p_list = list(p_list) + list(p)
-                y_list = list(y_list) + list(test_metab)
-
-                model.destroy()
-                tf.keras.backend.clear_session()
-                                
-            corr = pd.DataFrame(np.array(y_list)).corrwith(pd.DataFrame(np.array(p_list)), method="spearman").mean()
-            if corr >= best_l_corr:
-                best_l_corr = corr
-                best_layer_size = best_l2 * 2
-                is_better = True
-                if corr > best_corr:
-                    best_params = model.get_params()
-                
-            else:
-                is_better = False
-                best_l2 = best_l2/2
-
-        is_better = True
-        
-
-        while is_better:
-            
-            p_list = []
-            y_list = []
-            
-            for train_index, test_index in kf.split(micro):
-                train_micro, test_micro = micro[train_index], micro[test_index]
-                train_metab, test_metab = metab[train_index], metab[test_index]
-
-                model = MiMeNet(train_micro.shape[1], train_metab.shape[1], l1=best_l1, l2=best_l2, dropout=best_drop,
-                            num_layer=l, layer_nodes=best_layer_size, lr=best_lr)
-
-                model.train((train_micro, train_metab))
-                p = model.test((test_micro, test_metab))
-
-                p_list = list(p_list) + list(p)
-                y_list = list(y_list) + list(test_metab)
-                
-                model.destroy()
-                tf.keras.backend.clear_session()
-                                
-            corr = pd.DataFrame(np.array(y_list)).corrwith(pd.DataFrame(np.array(p_list)), method="spearman").mean()
-            if corr >= best_l_corr:
-                best_l_corr = corr
-                best_layer_size = best_drop * 2
-                if corr > best_corr:
-                    best_params = model.get_params()
-                if best_drop > 1:
-                    is_better = False
-                else:
-                    is_better = True
-                
-            else:
-                is_better = False
-                best_drop = best_drop/2
-
-        is_better = True
-
+        rscv = RandomizedSearchCV(model,param_distributions=params, cv=5, n_iter=1, 
+                              scoring=scorer)
+        rscv_results = rscv.fit(micro,metab,callbacks=callbacks, validation_split=0.2)
+        if rscv_results.best_score_ > best_score:
+            best_score = rscv_results.best_score_
+            best_params = rscv_results.best_params_
+            tf.keras.backend.clear_session()
+    
+    print('Best score is: {} using {}'.format(best_score, best_params))
     return best_params
