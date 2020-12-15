@@ -2,6 +2,7 @@ import warnings
 warnings.filterwarnings("ignore")
 import os
 
+import biom
 import json
 import argparse
 import time
@@ -67,6 +68,7 @@ num_cv = args.num_cv
 num_run = args.num_run
 background_dir = args.background
 labels = args.labels
+num_bg = args.num_background
 
 tuned = False
 
@@ -91,7 +93,7 @@ if net_params != None:
             l1 = params["l1"]
             l2 = params["l2"]
             dropout = params["dropout"]
-            learning_rate = params["learning_rate"]
+            learning_rate = params["lr"]
             tuned = True
             print("Loaded network parameters...")
     except:
@@ -215,6 +217,8 @@ if external_metab != None:
     common_features = np.intersect1d(metab_df.index.values, external_metab_df.index.values)
     metab_df = metab_df.loc[common_features]
     external_metab_df = external_metab_df.loc[common_features]
+    
+
     
 
     
@@ -359,11 +363,12 @@ for run in range(0,num_run_cv):
             tune_start_time = time.time()
             print("Tuning parameters...")
             tuned = True
-            num_layer, layer_nodes, l1, l2, dropout, learning_rate = tune_MiMeNet(train)
-                                   
-            # Save hyperparameters to file
-            params = {"num_layer": num_layer, "layer_nodes": layer_nodes, "l1": l1, "l2": l2,
-                        "dropout": dropout, "learning_rate": learning_rate}
+            params = tune_MiMeNet(train)
+            l1 = params['l1']
+            l2 = params['l2']
+            num_layer=params['num_layer']
+            layer_nodes=params['layer_nodes']
+            dropout=params['dropout']
             with open('results/' +out + '/network_parameters.txt', 'w') as outfile:
                 json.dump(params, outfile)
                         
@@ -470,7 +475,7 @@ if gen_background == True:
     bg_truth = []
     bg_scores = []
     bg_start_time = time.time()
-    for run in range(0,100):
+    for run in range(0,num_bg):
         preds = []
         truth = []
         score_matrix = []
